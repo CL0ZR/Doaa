@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@import "./assets/css/ArabicFontAmiri.css";
+@import "./assets/css/style.css";
+
+:root {
+  font-family: "Noto Kufi Arabic", sans-serif;
+  line-height: 1.5;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.8;
+}
